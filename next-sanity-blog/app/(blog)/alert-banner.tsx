@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useSyncExternalStore, useTransition } from "react";
 
 import { disableDraftMode } from "./actions";
+import Link from "next/link";
 
 const emptySubscribe = () => () => {};
 
